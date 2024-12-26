@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    openssl_version   = "1.1.1j"
+    openssl_version   = "3.2.108"
     openssl_targets   = "ios-sim-cross-x86_64 ios-sim-cross-arm64 ios64-cross-arm64 ios64-cross-arm64e macos64-x86_64 macos64-arm64 mac-catalyst-x86_64 mac-catalyst-arm64"
     script_version    = "12"
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.summary         = "A script for compiling OpenSSL for Apple Devices"
     s.authors         = "Felix Schulze", "Davide De Rosa", "Ezat Hashim"
 
-    s.homepage        = "https://github.com/keeshux/openssl-apple.git"
+    s.homepage        = "https://github.com/passepartoutvpn/openssl-apple.git"
     s.source          = { :git => s.homepage.to_s, :tag => "v#{script_version}" }
     s.license         = { :type => 'Apache', :file => 'LICENSE' }
 
